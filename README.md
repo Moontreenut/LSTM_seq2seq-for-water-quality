@@ -4,7 +4,9 @@ This is a Tensorflow implementation of LSTM-seq2seq model construction for paper
 **tune.py :**  model tuning code.<br/>
 **train.py :** model training code.<br/>
 **Jintan.csv :** data for testing which ncludes water temperature, pH, dissolved oxygen, turbidity, conductivity, permanganate value, ammonia nitrogen data from 8.31.2018 to 5.31.2021 for the Jintan station in the Tuojiang River Basin.<br/>
-**environment.yml :** environment configuration required for model building.
+**environment.yml :** environment configuration required for model building.<br/>
+**tmonitorsectionautopredict.zip :** Mini program back-end code packaging file.<br/>
+**yc.zip :** Mini program front-end code packaging file.<br/>
 # 1 Environments
 The model worked on Python 3 with Tensorflow>=2.0. Within this repository we provide an environment files (environment.yml) that can be used with Anaconda to create an environment with all packages needed.<br/>
 Simply run
